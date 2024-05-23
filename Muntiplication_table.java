@@ -1,16 +1,17 @@
 import java.util.*;
-public class Factorial {
+public class Muntiplication_table
+{
     public static void main(String args[])
     {
         Scanner Sc=new Scanner(System.in);
         System.out.println("Enter a Number");
-        int N=Sc.nextInt();
+        int n=Sc.nextInt();
         int i;
-        double f=1;
-        for(i=1;i<=N;i++)
+        int f;
+        for(i=1;i<=10;i++)
         {
-            f=f*i;
+            f=n*i;
+            System.out.println(n+"*"+i+"="+f);
         }
-        System.out.println("Factorial = "+f);
     }
 }
