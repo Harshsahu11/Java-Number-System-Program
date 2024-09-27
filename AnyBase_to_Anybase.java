@@ -12,8 +12,9 @@ public class AnyBase_to_Anybase {
         System.out.println(dn);
     }
     public static int getvalue(int n,int b1,int b2){
-            int dec=decimal(n,b1);
-            int dne=anybase(dec,b2);
+        int dec=anybase(n,b1);
+        int dne=decimal(dec,b2);
+
             return dne;
     }
     public static int decimal(int n,int b){
